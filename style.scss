@@ -1,0 +1,137 @@
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+// Create your own map
+$custom-colors: (
+  "custom-color": #008080
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+.ui.special.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.productoMostradoPorBuscar {
+  cursor: pointer;
+}
+
+.mt-6 {
+  margin-top: 1rem !important; //29rem
+  margin-bottom: rem !important;
+}
+
+.mt-7 {
+  margin-top: 4.5rem !important;
+}
+
+.mt-8{
+  margin-top: 5rem !important;
+}
+
+.mt-9{
+  margin-bottom: 1rem !important;
+}
+
+.mt-10{
+  margin-top: 3rem !important;
+}
+
+
+.star {
+  color: gold;
+}
+
+.text-white {
+  color: whitesmoke !important;
+}
+
+.text-black {
+  color: black !important;
+}
+
+#primerLinea{
+  background-color: #008080;
+  color: whitesmoke; 
+}
+
+.adidas-container {
+  overflow: hidden; /* Oculta cualquier contenido que desborde del contenedor */
+}
+
+.adidas-text {
+  white-space: nowrap; /* Evita que el texto se envuelva a la siguiente línea */
+  display: inline-block; /* Permite que el texto se desplace horizontalmente */
+  animation: adidas-animation 40s linear infinite; /* Aplica la animación al texto */
+}
+
+@keyframes adidas-animation {
+  0% {
+    transform: translateX(-25);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.linea {
+  height: 1px;
+  background-color: black;
+  margin-left: 20px; /* Margen izquierdo */
+  margin-right: 20px; /* Margen derecho */
+}
+
+.carritoCantidad {
+  position: absolute;
+  top: 60px;
+  right: 80px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  transform: translate(50%, -50%);
+}
+
+.envioGratis{
+  color: orangered
+}
+
+
+
+@font-face {
+  font-family: 'MiFuente';
+  src: url("Fuentes/Straider.ttf") format('woff2'), /* Formato WOFF2 para navegadores modernos */
+}
+@font-face {
+  font-family: 'MiFuente2';
+  src: url("Fuentes/StretchPro.otf") format('woff2'), /* Formato WOFF2 para navegadores modernos */
+}
+.tipografia{
+  font-family: 'MiFuente';
+}
+// Fuentes/Straider.ttf
+.tipografia2{
+  font-family:  'MiFuente2' ;
+}
+.producto {
+  text-decoration: none; /* Elimina el subrayado */
+}
+
+.ui.selection.dropdown {
+  width: 50px !important; /* Ancho del dropdown */
+  font-size: 22px !important; /* Tamaño de fuente del dropdown */
+}

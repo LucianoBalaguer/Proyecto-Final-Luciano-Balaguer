@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RezArrows</title>
+
+    <!-- Link Semantic UI -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icono de la página -->
+    <link rel="shortcut icon" href="logo/AddidasLogo.ico" type="image/x-icon" />
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary p-4 h3">
+    <div class="container-fluid">
+
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="logo/AddidasLogo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                </a>
+            </div>
+          </nav>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active tipografia" aria-current="page" href="#">RezArrows</a>
+          </li>
+          <i class="ar flag"></i>
+          <div  class="ms-3 d-flex justify-content">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Hombres</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Mujeres</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-disabled="true">Niños</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-disabled="true">Deportes</a>
+          </li>
+          </div>
+        </ul>
+        
+        <!-- Barra de busqueda -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-custom-color" type="submit">Search</button>
+        </form>
+        
+        <!-- boton de inicio de Sesión -->
+        <div class="divContenedorDeBtn ms-4"><button type="button" class="btn btn-dark me-3" id="botonDeInicioDeSesion">Sing in</button></div> 
+
+        <!-- Icono de carrito -->
+        <div type="button" class="carritoBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="70" height="35" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+          <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+          </svg>
+        </div>
+        
+
+      </div>
+    </div>
+</nav>
+
+
+
+<!-- Barra con el nombre del producto -->
+
+<div class="d-flex justify-content-between align-items-center bg-dark">
+  <div><a href="index.html"><button class="ui button ms-4">Back</button></div></a>
+  <h1 class="text-light p-3 tipografia2">Título</h1>
+  <div></div> <!-- Este div vacío ayuda a mantener el botón "Back" a la izquierda -->
+</div>
+
+<h1 class="h11"></h1>
+
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Semantic UI -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!--Toastify-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+<!-- sweetAlert -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<!-- Mi Script -->
+<script src="Js/main2.js"></script>
+</body>
+</html>
+

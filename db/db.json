@@ -1,0 +1,123 @@
+[
+    {
+       "nombre":"Sandalias Adilette Comfort",
+       "precio":"$62.999",
+       "talles":"",
+       "genero":"Unisex",
+       "imagen":"imgProductosGrandes/sandaliasAdiletteComfort.png",
+       "precioReal":62999,
+       "valoracion":"CONFORT",
+       "tipo":"sandalia1",
+       "imagenPreview":"imgProductos/ojota1.png"
+    },
+    {
+       "nombre":"Ozmillen",
+       "precio":"$160.999",
+       "talles":"",
+       "genero":"***UNISEX, HORMA GRANDE***",
+       "imagen":"imgProductosGrandes/zapatillasOzmillen.png",
+       "precioReal":160999,
+       "valoracion":"zapatillas de moda para Hombre",
+       "tipo":"zapatilla1"
+    },
+    {
+       "nombre":"Team Fu",
+       "precio":"$160.999",
+       "talles":"",
+       "genero":"Mujer",
+       "imagen":"imgProductosGrandes/Team fu.png",
+       "precioReal":160999,
+       "valoracion":"zapatillas de moda para mujer",
+       "tipo":"zapatilla2"
+    },
+    {
+       "nombre":"Alphaboost V1",
+       "precio":"$97.999",
+       "talles":"",
+       "genero":"Unisex",
+       "imagen":"imgProductosGrandes/zapatillaVlCourt.png",
+       "precioReal":97999,
+       "valoracion":"zapatilla de moda Unisex",
+       "tipo":"zapatilla3"
+    },
+    {
+       "nombre":"Adifom Q",
+       "precio":"$81.999",
+       "talles":"35 36.5 38 39 40 (UK)",
+       "genero":"***UNISEX, HORMA GRANDE***",
+       "imagen":"imgProductosGrandes/zapatillasAdifom.png",
+       "precioReal":81999,
+       "valoracion":"zapatilla de moda para Hombre",
+       "tipo":"zapatilla4"
+    },
+    {
+       "nombre":"Adi2000",
+       "precio":"$189.999",
+       "talles":"",
+       "genero":"Mujer",
+       "imagen":"imgProductosGrandes/PantalonDeportivosFlames.png",
+       "precioReal":189999,
+       "valoracion":"Pantalon de moda Unisex",
+       "tipo":"pantalon1"
+    },
+    {
+       "nombre":"Remera Adidas Z.N.E",
+       "precio":"$69.999",
+       "talles":"",
+       "genero":"Unisex",
+       "imagen":"imgProductosGrandes/remeraOwnTheRun.png",
+       "precioReal":69999,
+       "valoracion":"Remera deportiva para Hombre",
+       "tipo":"remera1"
+    },
+    {
+       "nombre":"Remera Adidas Beckenbauer",
+       "precio":"$69.999",
+       "talles":"",
+       "genero":"Unisex",
+       "imagen":"imgProductosGrandes/remeraFlame.png",
+       "precioReal":69999,
+       "valoracion":"Remera Oversize de moda Unisex",
+       "tipo":"remera2"
+    },
+    {
+       "nombre":"Vl Adidas Court",
+       "precio":"$99.999",
+       "talles":"",
+       "genero":"Hombre",
+       "imagen":"imgProductosGrandes/zapatillasAdidasBali.png",
+       "precioReal":99999,
+       "valoracion":"zapatilla de moda Unisex",
+       "tipo":"zapatilla5"
+    },
+    {
+       "nombre":"Botines Crazyfast Messi",
+       "precio":"$149.999",
+       "talles":"",
+       "genero":"Hombre",
+       "imagen":"imgProductosGrandes/botinesMessi.png",
+       "precioReal":149999,
+       "valoracion":"Botines de pasto natural Unisex",
+       "tipo":"botin1"
+    },
+    {
+       "nombre":"Conjunto Mono",
+       "precio":"$109.999",
+       "talles":"",
+       "genero":"Unisex",
+       "imagen":"imgProductosGrandes/shortMono.png",
+       "precioReal":109999,
+       "valoracion":"Conjunto de moda para Hombre",
+       "tipo":"conjunto1"
+    },
+    {
+       "nombre":"Adicane",
+       "precio":"$68.999",
+       "talles":"",
+       "genero":"Hombre",
+       "imagen":"imgProductosGrandes/ojotasAdicane.png",
+       "precioReal":68999,
+       "valoracion":"COMFORT",
+       "tipo":"sandalia2"
+    }
+ ]
